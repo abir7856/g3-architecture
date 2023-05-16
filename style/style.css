@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ----------------------------
+                                Top Part
+                                        ----------------------------- */
+.top {
+  background: rgba(255, 144, 14, 0.1);
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1920px;
+  height: 1322px;
+}
+.container {
+  width: 1440px;
+  height: 700px;
+}
+/* ----------------------------
+                                Logo & Menu
+                                            ----------------------------- */
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo h3 {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  font-weight: 500;
+  font-size: 18px;
+  list-style: none;
+  padding-left: 70px;
+  color: #424242;
+}
+.menu ul li:hover {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 25px;
+}
+/* ----------------------------
+                                Banner Text & Image
+                                                    ----------------------------- */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 862px;
+  height: 225px;
+  text-align: center;
+}
+.banner-text h1 {
+  font-weight: 700;
+  font-size: 64px;
+  width: 862px;
+}
+.banner-text p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 862px;
+  margin-top: 32px;
+}
+.button-main {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background-color: orange;
+  width: 180px;
+  height: 64px;
+  border: 0;
+  border-radius: 10px;
+  margin: 32px 0px 50px 0;
+}
+.button-main:hover {
+  background-color: #20cfee;
+}
+/* ----------------------------
+                                Banner Text & Image
+                                                    ----------------------------- */
+.quicklist {
+  display: flex;
+  align-items: center;
+
+  column-gap: 73px;
+  margin-top: 85px;
+}
+.quick-list-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.quick-list-text h3 {
+  font-weight: 500;
+  font-size: 45px;
+  width: 468px;
+  height: 106px;
+  color: #727272;
+}
+#black {
+  font-weight: 700;
+  font-size: 45px;
+  color: black;
+}
+#orange {
+  font-weight: 700;
+  font-size: 45px;
+  color: #ff900e;
+}
+.quick-list-text p {
+  margin-top: 24px;
+}
+/* ----------------------------
+                              Features
+                                      ----------------------------- */
+.features {
+  display: flex;
+  margin-top: 170px;
+  column-gap: 150px;
+  align-items: center;
+}
+.features-text {
+  width: 586px;
+}
+.features-text > h3 {
+  width: 468px;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.features-text p {
+  margin-top: 10px;
+  color: #727272;
+}
+.features-description {
+  padding: 30px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  margin-top: 20px;
+}
+.big-button {
+  padding: 45px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: 0;
+  /* position: absolute; */
+  margin-top: 300px;
+  margin-left: 100px;
+}
+.big-button:hover {
+  background-color: aqua;
+}
+.big-button h3 {
+  font-weight: 700;
+  font-size: 65px;
+  color: white;
+}
+.big-button p {
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}
+/* ----------------------------
+                              Facts
+                                  ----------------------------- */
+.final-section {
+  margin-top: 130px;
+  padding-bottom: 215px;
+}
+.final-section > h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.final-section > p {
+  color: #727272;
+  width: 542px;
+  margin-bottom: 100px;
+}
+.facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.fact {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 45px 36px 60px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fact:hover {
+  background-color: #20cfee;
+  border: 1px solid white;
+}
+.fact h2 {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+  margin-top: 5px;
+}
+.fact h4 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+  margin-top: 5px;
+}
+.sponsors {
+  margin-top: 180px;
+  text-align: center;
+}
+.sponsors-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.sponsors-text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 24px;
+  color: #727272;
+}
+.sponsors-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 50px;
+  margin-bottom: 130px;
+  justify-items: center;
+}
+.copyright {
+  padding: 39px;
+  background: #fff4e7;
+  border-radius: 8px;
+}
+.copyright p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
